@@ -22,7 +22,7 @@ public class Auto {
 		int cont = 0;
 		if (motor.registro == this.registro) {
 			for (int i = 0; i<asientos.length; i++) {	
-				if (asientos[i] == null){
+				if (asientos[i] != null){
 					if (this.registro == asientos[i].registro) {
 						cont++;
 					}
